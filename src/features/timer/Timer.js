@@ -8,7 +8,7 @@ import { RoundedButton } from '../../components/RoundedButton';
 import { Timing } from './Timing';
 import { useKeepAwake } from 'expo-keep-awake';
 
-const DEFAULT_TIME = 0.1;
+const DEFAULT_TIME = 5;
 
 export const Timer = ({ focusSubject, onTimerEnd, clearSubject }) => {
   useKeepAwake();
