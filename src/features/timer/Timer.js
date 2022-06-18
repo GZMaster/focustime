@@ -74,14 +74,14 @@ export const Timer = ({ focusSubject, onTimerEnd, clearSubject }) => {
         ) : (
           <RoundedButton title="start" onPress={() => setIsStarted(true)} />
         )}
-        
+
       </View>
       <View style={styles.clearSubject}>
-          <RoundedButton 
-            title="-" 
-            size={50} 
-            onPress={() => clearSubject()} />
-        </View>
+        <RoundedButton
+          title="-"
+          size={50}
+          onPress={() => clearSubject()} />
+      </View>
     </View>
   );
 };
@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   buttonWrapper: {
-    fles: 0.3,
+    flex: 0.3,
     flexDirection: 'row',
     padding: 15,
     justifyContent: 'center',
